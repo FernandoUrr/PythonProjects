@@ -1,5 +1,5 @@
 #No se puede ser más preciso y más rápido con los algoritmos
-objetivo = int(input("Escoge un número"))
+objetivo = int(input("Escoge un número: "))
 epsilon = 0.01 #Precisión
 paso = epsilon**2
 respuesta = 0.0
