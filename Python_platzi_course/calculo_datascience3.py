@@ -9,6 +9,6 @@ def f(x):
     return np.sin(x)
 
 x = np.linspace(-10, 10 , num = 1000) #Genera un vector
-fog = f(g(x))
+fog = f(g(x)) #Función compuesta
 plt.plot(x, fog)
 plt.show()
