@@ -9,7 +9,7 @@ from scipy.stats import norm
 # plt.plot(x, y)
 # plt.show()
 
-#Panda sirve para leer exceles
+#Panda sirve para leer dataframes
 df = pd.read_excel("data_frames/s057.xls")
 arr = df["Normally Distributed Housefly Wing Lengths"].values[4:]
 # values, dist = np.unique(arr, return_counts = True)
